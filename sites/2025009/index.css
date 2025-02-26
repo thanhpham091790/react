@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Calistoga&family=Montserrat:wght@400;700&family=Nunito:wght@400;600&family=Poppins:wght@600&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.site-2025009 #group6 .card-container .card button, .site-2025009 #group1 .text button, .site-2025009 #group4 .text button, .site-2025009 #group3 .text button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 32rem;
+  border: none;
+  padding: 12rem 48rem;
+}
+.site-2025009 #group4, .site-2025009 #group3 {
+  min-height: 640rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.site-2025009 #group4 .text, .site-2025009 #group3 .text {
+  max-width: 40%;
+}
+.site-2025009 #group4 .text h2, .site-2025009 #group3 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 60rem;
+  margin-bottom: 0;
+}
+.site-2025009 #group4 .text p, .site-2025009 #group3 .text p {
+  font-family: "Nunito", sans-serif;
+  font-size: 23.776rem;
+  font-weight: 400;
+  margin-bottom: 23.776rem;
+}
+.site-2025009 #group4 .text button, .site-2025009 #group3 .text button {
+  color: #f64b3c;
+  background-color: white;
+}
+.site-2025009 #group1 {
+  min-height: 637.6rem;
+  background-color: black;
+  background-image: url("/2025009/assets/group1/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.site-2025009 #group1 .toolbar {
+  display: flex;
+  background: linear-gradient(to bottom, black, 80%, transparent);
+  justify-content: space-between;
+}
+.site-2025009 #group1 .toolbar .close,
+.site-2025009 #group1 .toolbar .open {
+  display: none;
+}
+.site-2025009 #group1 .toolbar .logo,
+.site-2025009 #group1 .toolbar nav {
+  margin: 28rem 56rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-2025009 #group1 .toolbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+.site-2025009 #group1 .toolbar ul li {
+  display: inline-block;
+}
+.site-2025009 #group1 .toolbar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+  padding: 24rem;
+}
+.site-2025009 #group1 .text {
+  position: absolute;
+  bottom: 60rem;
+  left: 60rem;
+  max-width: 50%;
+}
+.site-2025009 #group1 .text h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 72.832rem;
+  color: white;
+}
+.site-2025009 #group1 .text p {
+  font-family: "Nunito", sans-serif;
+  font-size: 25.728rem;
+  color: white;
+  font-weight: 400;
+}
+.site-2025009 #group1 .text button {
+  color: white;
+  background-color: #f64b3c;
+}
+.site-2025009 #group2 {
+  min-height: 637.6rem;
+  background-image: url("/2025009/assets/group2/background.png");
+  background-position: 0 120rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f6eedf;
+  color: #f64b3c;
+  padding: 28rem 0rem;
+}
+.site-2025009 #group2 .text {
+  max-width: 65%;
+  margin: 0 auto;
+}
+.site-2025009 #group2 .text h2,
+.site-2025009 #group2 .text p {
+  text-align: center;
+}
+.site-2025009 #group2 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 50.928rem;
+}
+.site-2025009 #group2 .text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20.184rem;
+  font-weight: 400;
+}
+.site-2025009 #group2 .card-container {
+  display: flex;
+  max-width: 75%;
+  margin: 64rem auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.site-2025009 #group2 .card-container .card {
+  text-align: center;
+}
+.site-2025009 #group2 .card-container .card h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 26.664rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.site-2025009 #group2 .card-container .card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20rem;
+}
+.site-2025009 #group3 {
+  color: #ffffff;
+  background-color: #f64b3c;
+}
+.site-2025009 #group4 {
+  min-height: 640rem;
+  color: #f64b3c;
+  background-color: #f6eedf;
+  background-image: url("/2025009/assets/group4/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.site-2025009 #group4 .text button {
+  background-color: #f64b3c;
+  color: white;
+}
+.site-2025009 .row-reverse {
+  flex-direction: row-reverse !important;
+}
+.site-2025009 #group5 {
+  min-height: 637.6rem;
+  background-color: #f64b3c;
+  color: #ffffff;
+}
+.site-2025009 #group5 .text {
+  max-width: 55%;
+  text-align: center;
+  padding: 16rem 0;
+  margin: 0 auto;
+}
+.site-2025009 #group5 .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 49.808rem;
+  margin-bottom: 0;
+}
+.site-2025009 #group5 .text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19.744rem;
+  font-weight: 400;
+}
+.site-2025009 #group5 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 64rem;
+}
+.site-2025009 #group5 .card-container .card {
+  border: 4rem solid white;
+  width: 240rem;
+  height: 240rem;
+  border-radius: 240rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26.664rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.site-2025009 #group5 .card-container .card strong {
+  display: block;
+  font-family: "Archivo", sans-serif;
+  font-size: 81.288rem;
+}
+.site-2025009 #group6 {
+  min-height: 640rem;
+  background-image: url("/2025009/assets/group6/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f64b3c;
+  background-color: #f6eedf;
+  text-align: center;
+  overflow: hidden;
+}
+.site-2025009 #group6 h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 60rem;
+  padding: 16rem;
+}
+.site-2025009 #group6 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 16rem;
+}
+.site-2025009 #group6 .card-container .card {
+  width: 268rem;
+  height: 400rem;
+  border-radius: 8rem;
+  background-color: #ffffff;
+  padding: 8rem;
+}
+.site-2025009 #group6 .card-container .card h3,
+.site-2025009 #group6 .card-container .card .price {
+  font-family: "Archivo", sans-serif;
+  font-size: 26.68rem;
+}
+.site-2025009 #group6 .card-container .card img {
+  margin: 8rem;
+}
+.site-2025009 #group6 .card-container .card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16.008rem;
+  font-weight: 400;
+}
+.site-2025009 #group6 .card-container .card button {
+  color: #ffffff;
+  background-color: #f64b3c;
+}
+.site-2025009 #group7 {
+  min-height: 623.2rem;
+  background-image: url("/2025009/assets/group7/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-2025009 #group7 .text {
+  width: 50%;
+}
+.site-2025009 #group7 .text p {
+  font-family: "Archivo", sans-serif;
+  font-size: 29.176rem;
+}
+.site-2025009 #group7 .text h4 {
+  font-family: "Calistoga", cursive;
+  font-size: 35.92rem;
+  font-weight: 400;
+}
+.site-2025009 #group8 {
+  min-height: 637.6rem;
+  background-color: #f6eedf;
+  display: flex;
+}
+.site-2025009 #group8 .content {
+  width: 100%;
+  background-image: url("/2025009/assets/group8/background.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.site-2025009 #group8 .content h2,
+.site-2025009 #group8 .content p {
+  color: #f64b3c;
+}
+.site-2025009 #group8 .content h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 60rem;
+  margin: 0;
+}
+.site-2025009 #group8 .content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 23.776rem;
+  font-weight: 400;
+  max-width: 50%;
+}
+.site-2025009 #group8 .content .form {
+  width: 50%;
+}
+.site-2025009 #group8 .content .form input {
+  width: 60%;
+  background-color: white;
+  padding: 16rem;
+  border: none;
+  border-top-left-radius: 24rem;
+  border-bottom-left-radius: 24rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 20rem;
+  font-weight: 400;
+}
+.site-2025009 #group8 .content .form button {
+  width: 35%;
+  background-color: #f64b3c;
+  color: white;
+  border: none;
+  padding: 16rem;
+  border-top-right-radius: 24rem;
+  border-bottom-right-radius: 24rem;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-size: 20rem;
+  font-weight: 400;
+}
+.site-2025009 #group9 {
+  min-height: 637.6rem;
+  border: 0.8rem solid white;
+  color: white;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-2025009 #group9 .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.site-2025009 #group9 .content #col1 {
+  max-width: 35%;
+}
+.site-2025009 #group9 .content .social a {
+  display: inline-block;
+  width: 40rem;
+  height: 40rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8rem;
+  margin: 8rem;
+}
+.site-2025009 #group9 .content .social a .fa-brands {
+  font-size: 24rem;
+  color: #222222;
+}
+.site-2025009 #group9 .content h4 {
+  font-family: "Archivo", sans-serif;
+  font-size: 25.176rem;
+  margin: 0;
+}
+.site-2025009 #group9 .content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18.88rem;
+  font-weight: 400;
+}
+.site-2025009 #group9 .content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-2025009 #group9 .content ul li {
+  padding: 4rem;
+}
+.site-2025009 #group9 .content ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 18.88rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 0.75px;
+  }
+  .site-2025009 img {
+    max-width: 100%;
+  }
+  .site-2025009 #group1 .text,
+  .site-2025009 #group2 .text,
+  .site-2025009 #group3 .text,
+  .site-2025009 #group4 .text,
+  .site-2025009 #group5 .text,
+  .site-2025009 #group6 .text,
+  .site-2025009 #group7 .text,
+  .site-2025009 #group8 .content,
+  .site-2025009 #group9 .content {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .site-2025009 #group2 .card-container,
+  .site-2025009 #group5 .card-container,
+  .site-2025009 #group6 .card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+    margin: 60rem auto;
+  }
+  .site-2025009 #group1 {
+    overflow: hidden;
+  }
+  .site-2025009 #group1 .toolbar .close,
+  .site-2025009 #group1 .toolbar .open {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 35rem 70rem;
+    margin-left: auto;
+  }
+  .site-2025009 #group1 .toolbar .close:hover,
+  .site-2025009 #group1 .toolbar .open:hover {
+    cursor: pointer;
+  }
+  .site-2025009 #group1 .toolbar .close i,
+  .site-2025009 #group1 .toolbar .close svg,
+  .site-2025009 #group1 .toolbar .open i,
+  .site-2025009 #group1 .toolbar .open svg {
+    line-height: 80rem;
+    font-size: 25rem;
+  }
+  .site-2025009 #group1 .toolbar nav {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to bottom, black, 80%, transparent);
+    z-index: 1;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+  }
+  .site-2025009 #group1 .toolbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .site-2025009 #group1 .text {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 60rem auto;
+    text-align: center;
+    max-width: 80%;
+  }
+  .site-2025009 #group2 {
+    background-position: center;
+  }
+  .site-2025009 #group3,
+  .site-2025009 #group4 {
+    flex-direction: column;
+  }
+  .site-2025009 #group3 .image,
+  .site-2025009 #group3 .text,
+  .site-2025009 #group4 .image,
+  .site-2025009 #group4 .text {
+    margin: 63.66rem 0;
+  }
+  .site-2025009 #group3 .text,
+  .site-2025009 #group4 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .site-2025009 .row-reverse {
+    flex-direction: column !important;
+  }
+  .site-2025009 #group5 {
+    overflow: hidden;
+  }
+  .site-2025009 #group6 .card-container .card {
+    width: 80%;
+  }
+  .site-2025009 #group8 .content p {
+    max-width: 100%;
+  }
+  .site-2025009 #group8 .content .form {
+    width: 100%;
+  }
+  .site-2025009 #group8 .content .form button {
+    font-size: 20rem;
+  }
+  .site-2025009 #group9 .content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .site-2025009 #group9 .content .col {
+    flex-basis: 50%;
+    margin-top: 60rem;
+  }
+  .site-2025009 #group9 .content .social a svg {
+    font-size: 24rem;
+    color: #222222;
+  }
+}/*# sourceMappingURL=index.css.map */

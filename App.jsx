@@ -1,9 +1,19 @@
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Site2025009 from "./sites/2025009/index.jsx";
+
+
 function App() {
     return (
-        <div>
-            <h1>React App</h1>
-            <p>Welcome to the React app!</p>
-        </div>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/2025009" element={<Site2025009 />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     )
 }
 
