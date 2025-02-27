@@ -7,6 +7,7 @@ function Home() {
     return (
         <>
             <div className="year" id="2025" style={{ fontSize: "20rem" }}>
+                <h2>2025</h2>
                 <ul>
                     <li>
                         <Link to="/2025009">2025-009-burger-site</Link>
