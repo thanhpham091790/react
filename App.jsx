@@ -1,8 +1,7 @@
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Site2025009 from "./sites/2025009/index.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Site2025009 from "./sites/2025009/index";
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/2025009" element={<Site2025009 />} />
+                    <Route path="/" element={<Site2025009 />} />
                 </Routes>
             </BrowserRouter>
         </>
