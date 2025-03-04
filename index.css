@@ -1,0 +1,22 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 0.75px;
+  }
+}/*# sourceMappingURL=index.css.map */
