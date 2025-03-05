@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Projects from "./projects/Projects";
-import Project2025009 from "./projects/2025009/Project2025009";
+import ProjectDetail from "./projects/ProjectDetail";
 
 export default function App() {
     return (
@@ -9,7 +9,7 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Projects />} />
-                    <Route path="/2025009" element={<Project2025009 />} />
+                    <Route path="/:projectUrl" element={<ProjectDetail />} />
                 </Routes>
             </BrowserRouter>
         </>

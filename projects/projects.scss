@@ -12,7 +12,7 @@
 
     h2 {
         text-align: center;
-        font-size: 20rem;
+        font-size: 1.25em;
     }
 
     ul {
@@ -26,19 +26,19 @@
 
         li {
             flex-basis: 50%;
-            margin: 1rem 0;
-            padding: 10rem;
-            border: 1rem solid #ccc;
-            border-radius: 5rem;
+            margin: 0.0625em 0;
+            padding: 0.625em;
+            border: 0.0625em solid #ccc;
+            border-radius: 0.3125em;
             background-color: #fff;
-            box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.1);
             text-align: center;
 
             a {
                 text-decoration: none;
                 color: dodgerblue;
                 text-transform: capitalize;
-                font-size: 16rem
+                font-size: 1em
             }
         }
     }
