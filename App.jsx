@@ -9,7 +9,7 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Projects />} />
-                    <Route path="/:projectUrl" element={<ProjectDetail />} />
+                    <Route path="/projects/:projectUrl" element={<ProjectDetail />} />
                 </Routes>
             </BrowserRouter>
         </>

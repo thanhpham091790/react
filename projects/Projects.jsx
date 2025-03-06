@@ -1,7 +1,6 @@
 import './projects.css';
 import { data } from './projectData.js';
 import { Link } from 'react-router-dom';
-import { FaReact } from "react-icons/fa";
 
 export default function Projects() {
 
@@ -13,8 +12,8 @@ export default function Projects() {
                     {dataObj.projects.map(project => {
                         return (
                             <li key={project.id}>
-                                <Link to={`/${project.url}`}>{project.name}</Link>
-                                { project.react}
+                                <Link to={`/projects/${project.url}`}>{project.name}</Link>
+                                {project.react}
                             </li>
                         )
 
