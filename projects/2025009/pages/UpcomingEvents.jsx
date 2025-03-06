@@ -1,3 +1,5 @@
+import Event from "../assets/upcoming-events/event.png";
+
 export default function UpcomingEvents() {
     return (
         <section className="upcoming-events">
@@ -16,7 +18,7 @@ export default function UpcomingEvents() {
                         us in creating
                         memorable moments and delicious memories together!</p>
                 </div>
-                <img src="./projects/2025009/assets/upcoming-events/event.png" alt="Upcoming Events" />
+                <img src={Event} alt="Upcoming Events" />
             </div>
         </section>
     );

@@ -4,13 +4,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import FooterLogo from "../assets/footer/footer-logo.png";
 
 export default function Footer() {
     return (
         <footer className="footer">
             <div className="container">
                 <div className="footer-logo">
-                    <img src="./projects/2025009/assets/footer/footer-logo.png" alt="Footer logo image" />
+                    <img src={FooterLogo} alt="Footer logo image" />
                 </div>
                 <div className="footer-text">
                     <p className="para">Welcome to Burger Company, where passion for exceptional food and genuine

@@ -1,3 +1,5 @@
+import HeaderLogo from "../assets/header/header-logo.png";
+import HeaderHero from "../assets/header/header-hero.png";
 
 export default function Header() {
     return (
@@ -5,7 +7,7 @@ export default function Header() {
             <div className="container">
                 <div className="menu-bar">
                     <div className="header-logo">
-                        <img src="./projects/2025009/assets/header/header-logo.png" alt="Header logo image" />
+                        <img src={HeaderLogo} alt="Header logo image" />
                     </div>
                     <div className="open-menu" id="open-menu"><i className="fa-solid fa-bars"></i></div>
                     <div className="menu" id="menu">
@@ -27,7 +29,7 @@ export default function Header() {
                         <h1 className="heading">Burger Week</h1>
                     </div>
                     <div className="hero-img">
-                        <img src="./projects/2025009/assets/header/header-hero.png" alt="Hero Image" />
+                        <img src={HeaderHero} alt="Hero Image" />
                     </div>
                 </div>
             </div>

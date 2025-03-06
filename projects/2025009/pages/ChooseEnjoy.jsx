@@ -1,3 +1,7 @@
+import ChickenBurger from "../assets/choose-enjoy/chicken-burger.png";
+import VeggieDelightBurger from "../assets/choose-enjoy/veggie-delight-burger.png";
+import BbqBaconBurger from "../assets/choose-enjoy/bbq-bacon-burger.png";
+
 export default function ChooseEnjoy() {
     return (
         <section className="choose-enjoy">
@@ -10,7 +14,7 @@ export default function ChooseEnjoy() {
                     bud, with juicy patties, fresh toppings, and the perfect bun to complete the experience</p>
                 <div className="cards">
                     <div className="card">
-                        <img src="./projects/2025009/assets/choose-enjoy/chicken-burger.png" alt="Chicken Burger" />
+                        <img src={ChickenBurger} alt="Chicken Burger" />
                         <h3 className="name">Chicken Burger</h3>
                         <p className="para">Sink your teeth into the timeless perfection of our Chicken Burgers, where
                             tender, juicy
@@ -20,7 +24,7 @@ export default function ChooseEnjoy() {
                         <button type="button" className="btn">Order Now</button>
                     </div>
                     <div className="card">
-                        <img src="./projects/2025009/assets/choose-enjoy/veggie-delight-burger.png" alt="Veggie Delight Burger" />
+                        <img src={VeggieDelightBurger} alt="Veggie Delight Burger" />
                         <h3 className="name">Veggie Delight Burgerr</h3>
                         <p className="para">Embrace the vibrant flavors of our Veggie Delight Burger, a celebration of
                             freshness and
@@ -31,7 +35,7 @@ export default function ChooseEnjoy() {
                         <button type="button" className="btn">Order Now</button>
                     </div>
                     <div className="card">
-                        <img src="./projects/2025009/assets/choose-enjoy/bbq-bacon-burger.png" alt="BBQ Bacon Burger" />
+                        <img src={BbqBaconBurger} alt="BBQ Bacon Burger" />
                         <h3 className="name">BBQ Bacon Burger</h3>
                         <p className="para">Indulge in a symphony of smoky, savory flavors with our BBQ Bacon Burger,
                             grilled to
