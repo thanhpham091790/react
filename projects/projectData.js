@@ -6,9 +6,9 @@ export const data = [
         projects: [
             {
                 id: "2025010",
-                name: "Van Life",
+                name: "Simple Landing Page",
                 url: "2025010",
-                react: false,
+                react: true,
             },
             {
                 id: "2025009",

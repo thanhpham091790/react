@@ -37,4 +37,7 @@
   color: dodgerblue;
   text-transform: capitalize;
   font-size: 1em;
+}
+.projects ul li svg {
+  margin-left: 0.5em;
 }/*# sourceMappingURL=projects.css.map */
